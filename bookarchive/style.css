@@ -1,0 +1,548 @@
+/* This Css styles the whole HTML DOM*/
+html{
+ scroll-behavior: smooth;
+ }
+/* width */
+::-webkit-scrollbar {
+    width: 1%;
+    background: linear-gradient(to bottom, #a11f3c 0%, #9352b3 100%);
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 2px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background:#590294;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0019f8; 
+}
+
+/* This Css styles the whole BODY HTML*/
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x:hidden; 
+    font-family: 'Quicksand', sans-serif;
+    color: #948a99;
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ /* This Css styles the whole contents inside wrapper DIV*/
+.wrapper{
+    visibility: hidden;
+}
+
+   /* This Css styles the whole contents of header tag*/
+.wrapper header{
+    display: block;
+    width: 100%;
+    height: 4rem; /*1 rem = 16 px default*/
+    /* This color is just for layout change it in main design*/
+}
+
+
+.wrapper header div{
+    position: relative;
+    z-index: 656;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper header div nav .header_logo a {
+    color: #fff;
+}
+     /* This Css styles the whole nav DIV*/
+.wrapper header div nav{
+    display: block;
+    width: 100%;
+    height: auto;
+    white-space: nowrap;
+    word-wrap: none;
+    color: #fff;
+
+}
+
+.wrapper header div nav .header_logo{
+    display: inline;
+    width: 10%;
+    height: 4rem;
+    float: left;
+    padding: 20px;
+}
+
+.wrapper header div nav .main_nav{
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: none;
+        width: 90%;
+        height: 4rem;
+
+}
+
+.wrapper header div nav .main_nav ul{
+    display: inline;
+    list-style-type:none;
+    width: auto;
+    text-align: center;
+    
+}
+.wrapper header div nav .main_nav ul li{
+    display: inline;     
+    height: 4rem;
+}
+.wrapper header div nav .main_nav ul .tabs{
+    width: 70%;
+    height: 4rem;
+    padding:20px;
+    display: inline-block;
+}
+
+.wrapper header div nav .main_nav ul .tabs a {
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 4rem;
+    vertical-align: middle;
+    justify-self: middle;
+    color: #fff !important;
+    overflow: hidden;
+
+}
+.wrapper header div nav .main_nav ul .loginbtn{
+    display: inline;
+    width: 20%;
+    position: absolute;
+    right: 0;
+    padding: 20px;
+}
+.wrapper header div nav .main_nav ul .closebtn{
+    display: inline;
+    float: right;
+    position: absolute;
+    top: 16px;
+    height: 3rem;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: 3rem;
+    cursor: pointer;
+}
+.wrapper header div nav .main_nav ul .loginbtn button {
+    margin: auto;
+
+}
+.wrapper header div nav .main_nav .login{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    top:0;
+    left: 0;
+    background: rgba(25, 25, 26, 0.3);
+    bottom: 0;
+}
+
+.wrapper header div nav .main_nav .signin-wrapper{
+    position: relative;
+    top: 15%;
+    /* right: 50%; */
+    display: inline-block;
+    vertical-align:middle;
+    width: 32rem;
+    height: auto;
+    text-align: center;
+    z-index: 1;
+    background: #ffffff;
+    justify-self: center;
+    color: #948a99 !important;
+   
+}
+
+.wrapper header div nav .main_nav .signup{
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    top:0;
+    left: 0;
+    background: rgba(25, 25, 26, 0.3);
+    bottom: 0;
+}
+
+.wrapper header div nav .main_nav  .signin-wrapper h4{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    vertical-align: middle;
+    color: #fff;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding-top: 10px;
+
+}
+.wrapper div nav .main_nav  .signin-wrapper .small-dialog-headline{
+    display: block;
+    width: 100%;
+    background: #584fb5;
+    height: 3.5rem;
+    padding-top: 8px;
+}
+.wrapper div nav .main_nav  .signin-wrapper .small-dialog-content {
+    padding: 40px;
+    padding-top: 2px;
+    border: 0;
+    -webkit-border-radius: 0 0 5px 5px;
+    -moz-border-radius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+    background: #fff;
+    box-shadow: none;
+    text-align: left;
+    color: #948a99 !important;
+
+}
+
+.wrapper div nav .main_nav  .signin-wrapper label{
+    width: 100%;
+    margin-top: 2px;
+    display: block;
+} 
+.wrapper div nav .main_nav .signin-wrapper input[type="text"],
+.wrapper div nav .main_nav .signin-wrapper input[type="email"],.wrapper div nav .main_nav .signin-wrapper input[type="password"]{
+    width: 100%;
+    height: 2.5rem;
+    margin-top: 2px;
+    border-radius: 5px;
+    border: 1px solid #948a99;
+    display:block;
+}
+
+.wrapper .backgroundSlider{
+    background-color: #584fb5;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 10px;
+    width: 100%;
+    height: 100vh;
+    z-index: -1000;
+    display: block;
+}
+
+.wrapper .backgroundSlider img{
+
+}
+
+.wrapper .backgroundSlider .slider{
+    display: inline;
+    position: absolute;
+    float: right;
+    top: 45%;
+    right: 50px;
+    width: 5px;
+    z-index: 1000;
+
+} 
+.wrapper .backgroundSlider .slider_window {
+    display: inline;
+}
+.wrapper .overlay{
+    background: linear-gradient(to bottom, #a11f3c 0%, #9352b3 100%);
+    opacity: .6;
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+
+}
+
+
+/* This Css styles the slider Image DIV*/
+.wrapper .FullScreenSlider {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 90vh;
+    z-index: 600;
+}
+.wrapper .FullScreenSlider .search {
+    margin: auto;
+    z-index: 90;
+    padding-top:20%; 
+    width: 720px;
+    
+}
+.wrapper .FullScreenSlider .search .search_form_group {
+    width: 720px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.wrapper .FullScreenSlider .search .search_form_group .search_form{
+    margin: auto;
+    width: 700px;
+    max-width: 720px;
+    height: 3.5rem;
+    border-radius: 5px;
+    background: #fff;
+    z-index: 600;
+    box-shadow: #656366;
+}
+
+.wrapper .FullScreenSlider .search .searchbar{
+    display: inline;
+    font-family: inherit;
+    font-size: 24px;    
+    color: #656366;
+    width: 620px;
+    height: 3.5rem;
+    padding: 0;
+    border-radius: 5px;
+    margin: 0;
+    padding-left: 20px;
+    border-style: none;
+    background: #ffffff;
+    float: left;
+    transition: all .6s ease;
+}
+
+
+.wrapper .FullScreenSlider .search .search_form_group .search_control{
+    display: inline;
+    width: 80px;
+    border-style: none;
+    height: 3.5rem;
+    padding: 0;
+    margin: 0;
+    background: #584fb5;
+    
+}
+
+.search_control .material-icons{ 
+    font-size: 36px;
+    color: rgba(255, 255, 255, 1);
+ }
+
+
+/* This Css styles our main books showcase area*/
+.wrapper .canvas {
+      display: block;
+      width: 80%;
+      height: auto;
+      background: #ffffff;
+      transition: 2s all ease-in-out; 
+}
+
+
+/* This Css styles our analicts showcase area like total reads downloads*/
+.wrapper .analytics{
+    display: block;
+    margin-top: -3%;
+    width: 100%;
+    height: 8rem;
+    background: linear-gradient(to right, rgb(73, 75, 160) 0%, rgb(161, 31, 60) 100%);
+
+}
+
+/* This Css styles to our footer area*/
+.wrapper footer{
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgb(62, 69, 85);
+    display: block;
+    width: 100%;
+    height: 10rem;
+    margin: auto;
+    margin-bottom: -3%;
+    align-content: center;
+    text-align: center;
+}
+.wrapper footer div{
+    padding-top: 3%;
+}
+.fa {
+    padding: 1%;
+    font-size: 24px;
+    width: 3rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+/* This Css styles our back To Top Button*/
+.wrapper .backToTop{
+
+}
+@media(max-width:730px){
+    
+
+
+    .wrapper header div nav .main_nav .signin-wrapper{
+        width: 96%;
+        top:8%;
+
+    }
+
+    .wrapper div nav .main_nav  .signin-wrapper .small-dialog-content {
+        padding-top: 2px;
+        text-align: center;
+
+    }
+
+    .wrapper div nav .main_nav  .signin-wrapper label{
+        width: 100%;
+        margin-top: 2px;
+        display: block;
+    } 
+    .wrapper div nav .main_nav .signin-wrapper input[type="text"],input[type="email"],.wrapper div nav .main_nav .signin-wrapper input[type="password"]{
+        width: 100%;
+        height: 2.4rem;
+        margin-top: 2px;
+    
+    }
+
+
+    .wrapper .FullScreenSlider .search {
+        width: 420px;
+        padding-top: 40%;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group {
+        width: 420px;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group .search_form{
+        width: 420px;
+    }
+    
+    .wrapper .FullScreenSlider .search .searchbar{
+        width: 370px;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group .search_control{
+        width: 50px;
+        
+        
+    }
+    
+}
+@media(max-width:480px){
+
+    .wrapper header div nav .main_nav ul .tabs{
+        display: none;
+    }
+    .loginbtn{
+        right: 15% !important;
+    }
+
+    .wrapper .FullScreenSlider .search {
+        width: 96%;
+        padding-top: 40%;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group {
+        width: 100%;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group .search_form{
+        width: 100%;
+    }
+    
+    .wrapper .FullScreenSlider .search .searchbar{
+        width: 75%;
+        
+    }
+    .wrapper .FullScreenSlider .search .search_form_group .search_control{
+        width: 25%;
+        
+        
+    }
+    
+}
+body .loadingif{
+    position: fixed;
+    visibility: visible;
+    background: url('./images/loading.gif');
+    background-position: 50% 20%;
+    width: 100%;
+    height: 100vh;
+}
+body .loadingif h1{
+    position: relative;
+    top: 65%;
+    margin: auto;
+    text-align: center;
+    color: #0eff00;
+}
+body .loadingerror{
+    display: none;
+    position: relative;
+    visibility: hidden;
+    background: url('./images/error.png');
+    background-position: 50% 20%;
+    width: 100%;
+    height: 50vh;
+}
+.backToTop .Scrolltop:hover {
+    background: rgb(0, 17, 255);
+    transition: all 0.1s ease-in;
+}
+.backToTop .Scrolltop {
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 60px;
+    height: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 24px;
+    color: white;
+    margin: auto;
+    border: none;
+    border-radius: 50px;
+    background: rgba(68, 19, 100, 0.863);
+    transition: all 0.1s ease-out;
+    z-index: 1000;
+    cursor: pointer;
+    visibility: hidden;
+}

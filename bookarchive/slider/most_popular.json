@@ -1,0 +1,38 @@
+[
+    {
+        "url": "https://openlibrary.org/borrow/ia/hpmor", 
+        "author": "Eliezer Yudkowsky", 
+        "title": "Harry Potter and the Methods of Rationality",
+        "src":"https://covers.openlibrary.org/w/id/8044459-L.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/catchingfire00coll", 
+        "author": "Suzanne Collins", 
+        "title": "Catching fire",
+        "src":"https://covers.openlibrary.org/b/id/7896718-L.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/journeytoafrica00full", 
+        "author": "Hoyt W. Fuller", 
+        "title": "Journey to Africa",
+        "src":"https://covers.openlibrary.org/b/id/6925494-L.jpg"
+    
+    },
+    {
+        "url": "https://archive.org/stream/cu31924052695479", 
+        "author": "Edgar Rice Burroughs", 
+        "title": "The Warlord of Mars",
+        "src":"https://covers.openlibrary.org/w/id/8235317-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/girlwhoplayed00lars", 
+        "author": " Larsson", 
+        "title": "The girl who played with fire",
+        "src":"https://archive.org/services/img/girlwhoplayed00lars"
+    
+    }
+]

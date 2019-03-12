@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Book Urls </title>
+</head>
+<body>
+    <h1></h1>
+    <div id="div"></div>
+    <script>
+        var url = new URL(window.location.href);
+        var isbn = url.searchParams.get("isbn");
+        var title =url.searchParams.get("title");
+        var author =url.searchParams.get("author");
+        document.getElementById('div').innerHTML='<div class="ul ol_readapi_book" isbn='+isbn+' ol_bookid="0"> <img src="http://covers.openlibrary.org/b/isbn/'+isbn+'-L.jpg"><div class="li">Title:'+title+'<br>Author:'+author+'</div></div></div>';
+        </script>
+</body>
+<script src='../readapi_automator.js'></script>
+</html>

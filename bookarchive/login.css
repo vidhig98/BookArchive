@@ -1,0 +1,31 @@
+h1{
+    text-align: center;
+}
+.login{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    border:0px solid rgba(0,0,0,0.4);
+    background-color: #ffffff;
+    transition: all 0.5ms ease-out;
+    height: 30rem;
+    overflow:hidden;
+    margin-top:5rem;
+    margin-bottom: 5rem;
+    text-align: left;
+    position: relative;
+    box-shadow:8px 8px 20px 0 #767676;
+    border-radius: .485rem;
+    transition: all 2s ease;
+}
+input {
+    display: block;
+    padding: 0.5rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+form {
+    top: 30%;
+    position: relative;
+}

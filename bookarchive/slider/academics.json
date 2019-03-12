@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://archive.org/stream/operatingsystems00tane#mode/2up", 
+        "author": " Andrew S. Tanenbaum ", 
+        "title": "Operating Systems: Design and Implementation",
+        "src":"https://covers.openlibrary.org/w/id/8150417-M.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/datastructuresal00weisrich#mode/2up", 
+        "author": "Mark Allen Weiss", 
+        "title": "Data Structures and Algorithm Analysis",
+        "src":"https://covers.openlibrary.org/w/id/193878-L.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/databasemanageme00gera#mode/2up", 
+        "author": "Gerald V. Post", 
+        "title": "Database Management Systems",
+        "src":"https://covers.openlibrary.org/w/id/4947913-L.jpg"
+    
+    },
+    {
+        "url": "https://archive.org/stream/networkanalysis00vanv?ref=ol", 
+        "author": "M. E. Van Valkenburg", 
+        "title": "Network analysis",
+        "src":"https://covers.openlibrary.org/w/id/4508363-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/introductiontoel00uffe#mode/2up", 
+        "author": "John E. Uffenbeck", 
+        "title": "Introduction to electronics, devices and circuits",
+        "src":"https://covers.openlibrary.org/b/id/7984482-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/softwareengineer00pres_0#mode/2up", 
+        "author": "Roger S. Pressman", 
+        "title": "Software Engineering",
+        "src":"https://covers.openlibrary.org/w/id/55103-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/soilmechanics00crai#mode/2up", 
+        "author": "R. F. Craig", 
+        "title": "Soil mechanics",
+        "src":"https://covers.openlibrary.org/b/id/6916034-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/operationsmanage00russ_0#mode/2up", 
+        "author": "Robert J. Schilling", 
+        "title": "Fundamentals of Robotics",
+        "src":"https://covers.openlibrary.org/w/id/90219-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/biomedicalinstru00crom#mode/2up", 
+        "author": "Leslie Cromwell", 
+        "title": "Biomedical instrumentation and measurements",
+        "src":"https://covers.openlibrary.org/w/id/4505843-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/conceptsofmodern00beis?ref=ol", 
+        "author": "Arthur Beiser", 
+        "title": "Concepts of modern physics",
+        "src":"https://covers.openlibrary.org/w/id/53264-L.jpg"
+    
+    }
+]

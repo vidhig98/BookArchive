@@ -1,0 +1,68 @@
+[
+    {
+        "url": "https://archive.org/stream/untouchables00joep#mode/2up", 
+        "author": "Joe Pruett", 
+        "title": "The Untouchables",
+        "src":"https://covers.openlibrary.org/b/id/2936530-L.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/trickyspidertale0000schw#mode/2up", 
+        "author": "Chris Schweizer", 
+        "title": "Tricky Spider tales",
+        "src":"https://covers.openlibrary.org/b/id/7410721-L.jpg"
+       
+    
+    }, 
+    {
+        "url": "https://archive.org/stream/isbn_9780831759292#mode/2up", 
+        "author": "Walt Disney Productions, Mouse Works", 
+        "title": "Mickey's Christmas Carol",
+        "src":"https://archive.org/download/isbn_9780831759292/page/cover_w500_h500.jpg"
+    
+    },
+    {
+        "url": "https://archive.org/stream/groodeathtaxes00serg#mode/2up", 
+        "author": "Sergio Aragones", 
+        "title": "Groo",
+        "src":"https://covers.openlibrary.org/b/id/815155-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/isbn_9781891830242#mode/2up", 
+        "author": "Renee French", 
+        "title": "The Soap Lady",
+        "src":"https://covers.openlibrary.org/b/id/940306-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/samuraichamploov00mang#mode/2up", 
+        "author": "Masaru Gotsubo", 
+        "title": "Samurai Champloo, Vol. 1",
+        "src":"https://covers.openlibrary.org/b/id/865440-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/isbn_9781427807779#page/n7/mode/2up", 
+        "author": "Tokyopop", 
+        "title": "Hannah Montana SCHOLASTIC Edition",
+        "src":"https://archive.org/download/isbn_9781427807779/page/cover_w500_h500.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/lostlunch0000mort#mode/2up", 
+        "author": "Lori Mortensen", 
+        "title": "The Lost Lunch",
+        "src":"https://covers.openlibrary.org/b/id/8205102-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/ripd00matt#mode/2up", 
+        "author": "Peter Lenkov", 
+        "title": "R.I.P.D",
+        "src":"https://covers.openlibrary.org/b/id/815211-L.jpg"
+    
+    },{
+        "url": "https://archive.org/stream/techjacketvolume00robe#mode/2up", 
+        "author": "Robert Kirkman", 
+        "title": "Tech Jacket",
+        "src":"https://covers.openlibrary.org/b/id/844728-L.jpg"
+    
+    }
+]
